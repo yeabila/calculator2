@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>calculator</title>
+</head>
+<body name="body">
+    <div class="main">
+        <div class="container">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="con">
+            <button id="sin" onclick="solve()" value="sin">sin</button>
+            <button id="cos" onclick="solves()" value="cos">cos</button>
+            <button id="tan" onclick="solvess()" value="tan">tan</button>
+            <button id="log" onclick="plays()" value="log">log</button>
+            <button id="clear" onclick="clearInput()">C</button>
+        </div>
+        <div class="con">
+            <button id="seven" onclick="numberInput(7)"> 7 </button>
+            <button id="eight" onclick="numberInput(8)"> 8 </button>
+            <button id="nine" onclick="numberInput(9)"> 9 </button>
+            <button id="per" onclick="yeab()" value="sign" > sign </button>
+            <button id="del" onclick="delPut()" > Del </button>
+        </div>
+        <div class="con">
+            <button id="four" onclick="numberInput(4)"> 4 </button>
+            <button id="five" onclick="numberInput(5)"> 5 </button>
+            <button id="six" onclick="numberInput(6)"> 6 </button>
+            <button id="root" onclick="play()" value="root"> √ </button>
+            <button id="mul" onclick="operatorsInput('*')"> X </button>
+        </div>
+        <div class="con">
+            <button id="one" onclick="numberInput(1)"> 1 </button>
+            <button id="two" onclick="numberInput(2)"> 2 </button>
+            <button id="three" onclick="numberInput(3)"> 3 </button>
+            <button id="min" onclick="operatorsInput('-')"> - </button>
+            <button id="add" onclick="operatorsInput('+')"> + </button>
+        </div>
+        <div class="con">
+            <button id="zero" onclick="numberInput(0)"> 0 </button>
+            <button id="divs" onclick="operatorsInput('/')"> / </button>
+            <button id="equal" onclick="calculator()"> =</button>
+        </div>
+        <div class="result"></div>
+    </div>
+    <script src="calculator.js">
+
+    </script>
+    
+</body>
+</html>

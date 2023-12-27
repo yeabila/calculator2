@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 0.8rem;
+    border-radius: 30px;
+    height: 23rem;
+    width: 18rem;
+    background-color: #A9A9A9;
+}
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background: linear-gradient(rgb(240, 190, 240), skyblue  );
+   
+}
+.container{
+    display: block;
+    padding: 0.5rem;
+    
+}
+.container input{
+    padding: 1rem;
+    padding-right: 5.5rem;
+    border-radius: 1rem;
+    background-color: rgb(244, 212, 244);
+}
+
+.con{
+    padding-top: 0.3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    padding: 1rem; 
+    box-shadow: 0px 5px 5px  skyblue;  
+    cursor: pointer;
+    border-radius: 25%; 
+    &:hover{
+        background-color: grey;
+    }
+    
+}
+#zero{
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 15px;
+}
+#seven{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+#nine{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+#eight{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem; 
+}
+#per{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    background: #344556;
+    color: white;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#four{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+#five{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+#six{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+#root{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem; 
+    background: #344556;
+    color: white;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#mul{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    background: #344556;
+    color: white;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#one{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+#two{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    
+}
+#three{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+#add{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background: #344556;
+    color: white;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#min{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background: #344556;
+    color: white;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#equal{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: orange;
+    color: white;
+    border-radius: 15px;
+    &:hover{
+        background-color: #ED7D31;
+    }
+}
+#divs{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: #344556;
+    color: white;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#del{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background: orange;
+    &:hover{
+        background-color: #ED7D31;
+    }
+
+}
+#log{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background: #344556;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#sin{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background: #344556;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#tan{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #344556;
+    color: white;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#cos{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background: #344556;
+    &:hover{
+        background-color: #053B50;
+    }
+
+}
+#clear{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    color: white;
+    background: orange;
+    &:hover{
+        background-color: #ED7D31;
+    }
+}
