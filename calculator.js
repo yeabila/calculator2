@@ -42,3 +42,11 @@ function yeab(){
     let k = Math.sign(f)
     document.getElementById('display').value = k
 }
+ let deleteBut = document.getElementById('del')
+
+function calculators(){
+    let help = document.getElementById('display').value
+    let deleteBut = help.slice(0, -1)
+
+    document.getElementById('display').value = deleteBut
+ }
